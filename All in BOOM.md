@@ -85,9 +85,11 @@ Root用户登录需要修改/etc/ssh/sshd_config内的PermitRootLogin行取消�
 
 ### Nginx
 
-
+    # 安装nginx
     sudo apt install nginx
+    # 启动nginx
     sudo systemctl start nginx
+    # 加入开机自启
     sudo systemctl enable nginx
 
 
